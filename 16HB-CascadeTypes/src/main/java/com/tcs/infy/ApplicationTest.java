@@ -1,0 +1,32 @@
+package com.tcs.infy;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.tcs.infy.service.ServiceClass;
+
+
+//See the service class class for understanding about CascadeTypes.
+
+@SpringBootApplication
+public class ApplicationTest implements CommandLineRunner  {
+
+	@Autowired
+	ServiceClass serviceClass;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(ApplicationTest.class, args);
+		
+		
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("........>>>>>>>"+serviceClass.logic());
+		
+	}
+	
+	
+}
