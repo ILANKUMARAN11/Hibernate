@@ -1,5 +1,6 @@
 package com.tcs.infy.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -14,7 +15,7 @@ public class Address {
 	private String state;
 	private String pincode;
 
-	@ManyToOne
+	@ManyToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="User_Ref_ID")
 	private UserInfo userRef;
 
