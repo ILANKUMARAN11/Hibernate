@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HB9_Overriding_VO_Attributes/HB9_Part1.iml" filepath="$PROJECT_DIR$/HB9_Overriding_VO_Attributes/HB9_Part1.iml" />
       <module fileurl="file://$PROJECT_DIR$/HB9-VO_as_Primary_Key/HB9_Part2.iml" filepath="$PROJECT_DIR$/HB9-VO_as_Primary_Key/HB9_Part2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/10HB_VO_Embedded_as_List/HB_10.iml" filepath="$PROJECT_DIR$/10HB_VO_Embedded_as_List/HB_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/11HB-Configuring_Collections_and_Adding_Keys/HB_11.iml" filepath="$PROJECT_DIR$/11HB-Configuring_Collections_and_Adding_Keys/HB_11.iml" />
       <module fileurl="file://$PROJECT_DIR$/12HB-Proxy_Objects_and_Eager_and_Lazy_Fetch/HB_12.iml" filepath="$PROJECT_DIR$/12HB-Proxy_Objects_and_Eager_and_Lazy_Fetch/HB_12.iml" />
       <module fileurl="file://$PROJECT_DIR$/13HB-One_To_One_Mapping/HB_13.iml" filepath="$PROJECT_DIR$/13HB-One_To_One_Mapping/HB_13.iml" />
@@ -17,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/25_26HB-HQL_Query_and_HQL_returning_Query_Object/HB_25.iml" filepath="$PROJECT_DIR$/25_26HB-HQL_Query_and_HQL_returning_Query_Object/HB_25.iml" />
       <module fileurl="file://$PROJECT_DIR$/27HB-Named_queries_and_Native_queries/HB_27.iml" filepath="$PROJECT_DIR$/27HB-Named_queries_and_Native_queries/HB_27.iml" />
       <module fileurl="file://$PROJECT_DIR$/HB7-Primary_Keys_Generators/HB_7.iml" filepath="$PROJECT_DIR$/HB7-Primary_Keys_Generators/HB_7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/8HB-Value_Types_and_Embedding_Objects/HB_8.iml" filepath="$PROJECT_DIR$/8HB-Value_Types_and_Embedding_Objects/HB_8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate.iml" filepath="$PROJECT_DIR$/Hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/MapsId/MapsId.iml" filepath="$PROJECT_DIR$/MapsId/MapsId.iml" />
       <module fileurl="file://$PROJECT_DIR$/PaginationSorting/PaginationSorting.iml" filepath="$PROJECT_DIR$/PaginationSorting/PaginationSorting.iml" />
