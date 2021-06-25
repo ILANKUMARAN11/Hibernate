@@ -13,13 +13,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 
-import lombok.AllArgsConstructor;
-import lombok.ToString;
-
 
 @Entity(name="UserInfo") // This tells Hibernate to make a table out of this class
-@ToString
-@AllArgsConstructor
 public class UserInfo 
 {
 	

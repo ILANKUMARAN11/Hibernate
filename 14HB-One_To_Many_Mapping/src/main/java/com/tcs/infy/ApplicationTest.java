@@ -1,5 +1,9 @@
 package com.tcs.infy;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +20,12 @@ public class ApplicationTest implements CommandLineRunner  {
 	public static void main(String[] args) {
 		SpringApplication.run(ApplicationTest.class, args);
 		
+		List<String> lst=new ArrayList<>();
+		lst.add("ILAN");
 		
+		lst.stream().map(s->new String(s.concat("KUMARAN"))).collect(Collectors.toList());
+		
+		System.out.println(">>>>>"+lst);
 	}
 
 	@Override
@@ -24,6 +33,10 @@ public class ApplicationTest implements CommandLineRunner  {
 		System.out.println("........>>>>>>>"+serviceClass.logic());
 		
 	}
+	
+	
+	
+	
 	
 	
 }

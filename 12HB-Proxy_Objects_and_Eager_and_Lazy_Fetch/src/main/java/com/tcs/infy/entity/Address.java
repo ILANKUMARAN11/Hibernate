@@ -3,12 +3,7 @@ package com.tcs.infy.entity;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-import lombok.AllArgsConstructor;
-import lombok.ToString;
-
 @Embeddable
-@ToString
-@AllArgsConstructor
 public class Address {
 	
 	@Column(name="Door_No")

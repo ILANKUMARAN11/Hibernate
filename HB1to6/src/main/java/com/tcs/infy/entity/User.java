@@ -10,9 +10,6 @@ import javax.persistence.Lob;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import lombok.ToString;
-
-@ToString
 @Entity(name="UserInfo") // This tells Hibernate to make a table out of this class
 public class User {
     @Id

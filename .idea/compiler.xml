@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MapsId" />
+        <module name="HB_12" />
+        <module name="HB_13" />
+        <module name="HB_21" />
+        <module name="HB_10" />
+        <module name="HB_8" />
+        <module name="HB_11" />
+        <module name="HB_7" />
+        <module name="HB_15_Part1" />
+        <module name="HB_15_Part2" />
+        <module name="HB_1_To_6" />
+        <module name="PaginationSorting" />
+        <module name="HB_16" />
+        <module name="HB_27" />
+        <module name="HB_14" />
+        <module name="HB9_Part2" />
+        <module name="HB_25" />
+        <module name="HB9_Part1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HB9_Part1" target="1.8" />
+      <module name="HB9_Part2" target="1.8" />
+      <module name="HB_10" target="1.8" />
+      <module name="HB_11" target="1.8" />
+      <module name="HB_12" target="1.8" />
+      <module name="HB_13" target="1.8" />
+      <module name="HB_14" target="1.8" />
+      <module name="HB_15_Part1" target="1.8" />
+      <module name="HB_15_Part2" target="1.8" />
+      <module name="HB_16" target="1.8" />
+      <module name="HB_1_To_6" target="1.8" />
+      <module name="HB_21" target="1.8" />
+      <module name="HB_25" target="1.8" />
+      <module name="HB_27" target="1.8" />
+      <module name="HB_7" target="1.8" />
+      <module name="HB_8" target="1.8" />
+      <module name="Hibernate" target="1.8" />
+      <module name="MapsId" target="1.8" />
+      <module name="PaginationSorting" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HB9_Part1" options="-parameters" />
+      <module name="HB9_Part2" options="-parameters" />
+      <module name="HB_10" options="-parameters" />
+      <module name="HB_11" options="-parameters" />
+      <module name="HB_12" options="-parameters" />
+      <module name="HB_13" options="-parameters" />
+      <module name="HB_14" options="-parameters" />
+      <module name="HB_15_Part1" options="-parameters" />
+      <module name="HB_15_Part2" options="-parameters" />
+      <module name="HB_16" options="-parameters" />
+      <module name="HB_1_To_6" options="-parameters" />
+      <module name="HB_21" options="-parameters" />
+      <module name="HB_25" options="-parameters" />
+      <module name="HB_27" options="-parameters" />
+      <module name="HB_7" options="-parameters" />
+      <module name="HB_8" options="-parameters" />
+      <module name="MapsId" options="-parameters" />
+      <module name="PaginationSorting" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/10HB_VO_Embedded_as_List/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11HB-Configuring_Collections_and_Adding_Keys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12HB-Proxy_Objects_and_Eager_and_Lazy_Fetch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13HB-One_To_One_Mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14HB-One_To_Many_Mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15HB_Part1-mappedBy_parameter_example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15HB_Part2-ManyToMany_Mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16HB-CascadeTypes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21HB-CRUD_Operations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/25_26HB-HQL_Query_and_HQL_returning_Query_Object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/27HB-Named_queries_and_Native_queries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8HB-Value_Types_and_Embedding_Objects/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HB1to6/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HB7-Primary_Keys_Generators/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HB9-VO_as_Primary_Key/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HB9_Overriding_VO_Attributes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MapsId/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaginationSorting/src/main/java" charset="UTF-8" />
+  </component>
+</project>
