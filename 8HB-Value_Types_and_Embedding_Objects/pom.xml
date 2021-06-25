@@ -13,7 +13,7 @@
 	<artifactId>HB_8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>demo</name>
+	<name>HB8-Value Types and Embedding Objects</name>
 	<description>HB8-Value Types and Embedding Objects</description>
 
 	<properties>

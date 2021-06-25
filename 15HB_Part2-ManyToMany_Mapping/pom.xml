@@ -13,7 +13,7 @@
 	<artifactId>HB_15_Part2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>HB15_Part1-ManyToMany_Mapping</name>
+	<name>HB15-Part1-ManyToMany_Mapping</name>
 	<description>ManyToMany Mapping</description>
 
 	<properties>

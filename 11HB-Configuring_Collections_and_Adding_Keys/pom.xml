@@ -13,7 +13,7 @@
 	<artifactId>HB_11</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>HB11_Configuring Collections and Adding Keys</name>
+	<name>HB11-Configuring Collections and Adding Keys</name>
 	<description>Embeddable Object as Table and provide the custom name to the table and adding primary key to the table.</description>
 
 	<properties>

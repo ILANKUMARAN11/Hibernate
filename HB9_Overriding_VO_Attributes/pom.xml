@@ -13,7 +13,7 @@
 	<artifactId>HB9_Part1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>demo</name>
+	<name>HB9_Part1-Embeddable Object column name override</name>
 	<description>Embeddable Object column name override</description>
 
 	<properties>

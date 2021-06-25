@@ -13,7 +13,7 @@
 	<artifactId>HB_10</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>10HB_VO_Embedded_as_List</name>
+	<name>HB_10-VO_Embedded_as_List</name>
 	<description>
 	Embeddable Object stored separate table ,since we didn't know the list(Count)of Embeddable Object. 
 	This is because Embeddable Object will be dynamically growing

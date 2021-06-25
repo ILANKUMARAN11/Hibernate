@@ -12,7 +12,7 @@
 	
 	<artifactId>MapsId</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HB_MapsId</name>
+	<name>MapsId</name>
 	<description>Sharing same primary key between mapping relation tables</description>
 
 	<properties>
@@ -30,11 +30,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 	</dependencies>
 
 	<build>

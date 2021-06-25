@@ -13,7 +13,7 @@
 	<artifactId>HB9_Part2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>HB9_Part2</name>
+	<name>HB9_Part2-Embeddable Object as Primay Key to table</name>
 	<description>Embeddable Object as Primay Key to table</description>
 
 	<properties>

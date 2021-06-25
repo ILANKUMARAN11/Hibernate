@@ -12,8 +12,8 @@
 	<artifactId>HB_15_Part1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>HB15-mappedBy_and_ManyToMany_Mapping</name>
-	<description>mappedBy and Many To Many Mapping</description>
+	<name>HB15-MappedBy and ManyToMany_Mapping</name>
+	<description>MappedBy and Many To Many Mapping</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -13,7 +13,7 @@
 	
 	<artifactId>PaginationSorting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>paginationSorting</name>
+	<name>PaginationSorting</name>
 	<description>Pagination and Sorting</description>
 
 	<properties>
