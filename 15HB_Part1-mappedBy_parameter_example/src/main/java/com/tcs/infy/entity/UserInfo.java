@@ -26,7 +26,7 @@ public class UserInfo
     @Column
     private String email;
     
-    @OneToMany(mappedBy="userRef",fetch=FetchType.LAZY)
+    @OneToMany(mappedBy="userRef", fetch=FetchType.LAZY)
     private Collection<Address> listOfAddress=new ArrayList<Address>();
     
     
