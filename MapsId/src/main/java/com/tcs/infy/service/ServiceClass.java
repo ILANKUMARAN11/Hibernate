@@ -1,16 +1,12 @@
 package com.tcs.infy.service;
 
-import java.util.List;
-
-import jakarta.transaction.Transactional;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.tcs.infy.entity.Vehicle;
 import com.tcs.infy.entity.UserInfo;
+import com.tcs.infy.entity.Vehicle;
 import com.tcs.infy.repository.UserRepo;
 import com.tcs.infy.repository.VehicleRepo;
+import jakarta.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class ServiceClass {
