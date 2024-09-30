@@ -4,13 +4,13 @@ package com.tcs.infy.entity;
 import java.util.Collection;
 import java.util.HashSet;
 
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
+import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
 
 import org.hibernate.annotations.CollectionId;
 import org.hibernate.annotations.GenericGenerator;
@@ -32,7 +32,7 @@ public class User
     @ElementCollection
     @JoinTable(name="User_Address",joinColumns=@JoinColumn(name="User_ID"))
     @GenericGenerator(name = "increment-gen", strategy = "increment")
-    @CollectionId(columns=@Column(name="Address_ID"),generator="increment-gen",type=@Type(type="long"))
+    @CollectionId(column=@Column(name="Address_ID"),generator="increment-gen")
     private Collection<Address> listOfaddress=new HashSet<Address>();
     
 	public Integer getId() {

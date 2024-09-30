@@ -1,11 +1,11 @@
 package com.tcs.infy.entity;
 
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.NamedNativeQuery;
-import javax.persistence.NamedQuery;
-import javax.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Id;
+import jakarta.persistence.NamedNativeQuery;
+import jakarta.persistence.NamedQuery;
+import jakarta.persistence.Table;
 
 
 @NamedQuery(name="UserInfo.getById",query="from UserDetails where id=:uID")

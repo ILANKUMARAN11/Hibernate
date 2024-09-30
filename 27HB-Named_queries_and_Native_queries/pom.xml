@@ -11,13 +11,13 @@
 	
 	
 	<artifactId>HB_27</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>jar</packaging>
 	<name>27HB-Named_Queries</name>
 	<description>Named Queries are stating queries that are applied above the entity</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>21</java.version>
 	</properties>
 
 	<dependencies>

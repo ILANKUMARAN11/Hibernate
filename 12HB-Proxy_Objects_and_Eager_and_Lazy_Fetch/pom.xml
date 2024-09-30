@@ -10,16 +10,16 @@
 		<version>0.0.1</version>
 		<relativePath> ../pom.xml</relativePath>
 	</parent>
-	
-	
+
+
 	<artifactId>HB_12</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>jar</packaging>
 	<name>HB12 - Proxy Objects and Eager and Lazy Fetch Types</name>
 	<description>Lazy and Eager fetching. Proxy class the sub class of Entity which hibernate create on its own.</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>21</java.version>
 	</properties>
 
 	<dependencies>

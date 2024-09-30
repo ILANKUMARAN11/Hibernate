@@ -11,12 +11,12 @@
 	
 	
 	<artifactId>HB_7</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<name>HB7-Primary_Keys_Generators</name>
 	<description>Primary key AUTO Generation in Sequence</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>21</java.version>
 	</properties>
 
 	<dependencies>

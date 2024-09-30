@@ -1,9 +1,9 @@
 package com.tcs.infy.entity;
 
 
-import javax.persistence.Column;
-import javax.persistence.EmbeddedId;
-import javax.persistence.Entity;
+import jakarta.persistence.Column;
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
 
 @Entity(name="UserInfo") // This tells Hibernate to make a table out of this class
 public class User 

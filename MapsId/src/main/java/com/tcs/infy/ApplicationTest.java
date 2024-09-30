@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.tcs.infy.entity.UserInfo;
 import com.tcs.infy.entity.Vehicle;
 import com.tcs.infy.service.ServiceClass;
 
