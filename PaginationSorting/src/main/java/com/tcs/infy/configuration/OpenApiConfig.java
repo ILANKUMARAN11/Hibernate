@@ -9,6 +9,7 @@ import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.swagger.v3.oas.models.servers.Server;
 import lombok.Data;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springdoc.core.customizers.OpenApiCustomizer;
 import org.springdoc.core.models.GroupedOpenApi;
@@ -95,5 +96,6 @@ public class OpenApiConfig {
 @ConfigurationProperties("springdoc")
 @Data
 class SpringDocUrl {
-    private final Map<String, String> baseUrl = new HashMap<>();
+    private Map<String, String> baseUrl = new HashMap<>();
+
 }
