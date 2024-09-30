@@ -1,11 +1,7 @@
 package com.tcs.infy.entity;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
-import jakarta.persistence.NamedNativeQuery;
-import jakarta.persistence.NamedQuery;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 
 @NamedQuery(name="UserInfo.getById",query="from UserDetails where id=:uID")
@@ -19,6 +15,7 @@ import jakarta.persistence.Table;
 	@org.hibernate.annotations.NamedQuery(name = "DeptEmployee_UpdateEmployeeDepartment", 
 	query = "Update DeptEmployee set department = :newDepartment where employeeNumber = :employeeNo")
 })*/
+@Entity
 @Table(name="UserInfo") // This tells Hibernate to make a table out of this class
 public class UserDetails 
 {
