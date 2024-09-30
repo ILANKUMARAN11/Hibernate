@@ -9,7 +9,7 @@ import com.tcs.infy.service.ServiceClassForDemo;
 import com.tcs.infy.service.UserSaveService;
 
 @SpringBootApplication
-public class ApplicationTest implements CommandLineRunner  {
+public class Application implements CommandLineRunner  {
 
 	
 	@Autowired
@@ -21,7 +21,7 @@ public class ApplicationTest implements CommandLineRunner  {
 	
 	
 	public static void main(String[] args) {
-		SpringApplication.run(ApplicationTest.class, args);
+		SpringApplication.run(Application.class, args);
 		
 		
 	}
