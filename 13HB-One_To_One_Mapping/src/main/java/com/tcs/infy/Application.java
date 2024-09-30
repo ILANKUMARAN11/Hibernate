@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.tcs.infy.service.ServiceClass;
 
 @SpringBootApplication
-public class ApplicationTest implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
 	@Autowired
 	ServiceClass serviceClass;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApplicationTest.class, args);
+		SpringApplication.run(Application.class, args);
 
 	}
 

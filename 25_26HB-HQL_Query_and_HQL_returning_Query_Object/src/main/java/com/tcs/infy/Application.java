@@ -5,26 +5,31 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.tcs.infy.service.ServiceClass;
-
-
-//See the service class class for understanding about CascadeTypes.
+import com.tcs.infy.service.ServiceClassForDemo;
+import com.tcs.infy.service.UserSaveService;
 
 @SpringBootApplication
-public class ApplicationTest implements CommandLineRunner  {
+public class Application implements CommandLineRunner  {
 
+	
 	@Autowired
-	ServiceClass serviceClass;
+	UserSaveService userSaveService;
+	
+	@Autowired
+	ServiceClassForDemo serviceClassForDemo;
+	
+	
 	
 	public static void main(String[] args) {
-		SpringApplication.run(ApplicationTest.class, args);
+		SpringApplication.run(Application.class, args);
 		
 		
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("........>>>>>>>"+serviceClass.logic());
+		userSaveService.saveUser();
+		System.out.println("........>>>>>>>"+serviceClassForDemo.logic());
 		
 	}
 	
